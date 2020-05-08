@@ -1,0 +1,25 @@
+{
+  "name": "AF/router",
+  "description": "Http Router",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "AliAkbar Soleimani",
+      "email": "alisoleimani.dev@gmail.com"
+    },
+    {
+      "name": "Fatemeh Ghanbari",
+      "email": "alisoleimani.dev@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "BaseRouter.php",
+      "facade/Router.php"
+    ],
+
+  }
+}

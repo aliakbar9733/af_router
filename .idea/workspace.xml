@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43618d96-bd96-4c00-a50a-47f442b34ee9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1bcleUNRzepoBQCFie21cxtNLcd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../press/followjet/Classes/Youtube.php" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43618d96-bd96-4c00-a50a-47f442b34ee9" name="Default Changelist" comment="" />
+      <created>1588939357415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588939357415</updated>
+      <workItem from="1588939358629" duration="7732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="236" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588941821721">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="236" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1588941821721" />
+    <state x="442" y="282" width="482" height="267" key="ComposerInitDialogKey" timestamp="1588947199656">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="442" y="282" width="482" height="267" key="ComposerInitDialogKey/0.0.1366.738@0.0.1366.738" timestamp="1588947199656" />
+    <state x="467" y="126" key="FileChooserDialogImpl" timestamp="1588941882927">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="467" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588941882927" />
+    <state x="474" y="89" key="NewPhpClassDialog" timestamp="1588946392783">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="474" y="89" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1588946392783" />
+    <state x="501" y="293" key="NewPhpFileDialog" timestamp="1588941705590">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="501" y="293" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1588941705590" />
+    <state x="180" y="3" key="SettingsEditor" timestamp="1588939377942">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="180" y="3" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1588939377942" />
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1588942055253">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588942055253" />
+  </component>
+</project>

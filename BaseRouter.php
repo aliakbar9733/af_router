@@ -106,7 +106,12 @@ class BaseRouter
         }
         if ($class) {
             $class = new $class();
-            echo $class->$method($request);
+            $response = $class->$method($request);
+            if (gettype($response) == "array" and gettype($response) == "object") {
+                echo json_encode($response);
+            } else {
+                echo $response;
+            }
             return;
         }
         throw new Exception($controller . " " . self::CONTROLLER_NOT_EXISTS);

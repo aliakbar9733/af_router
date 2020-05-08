@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '6ce78c507aa1ea0069e11dfd089f999c' => $baseDir . '/BaseRouter.php',
-    '444d74ef3d030fd2b3dddbe429076594' => $baseDir . '/facade/Router.php',
+    'da34dce47c1dd07eb10c9916724ff8f3' => $baseDir . '/BaseRouter.php',
+    'b69b6910de03e097a125fa9800985a12' => $baseDir . '/facade/Router.php',
 );

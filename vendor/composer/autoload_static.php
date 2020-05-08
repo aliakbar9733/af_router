@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit50166c2b6ba8a4041666c67fcc361e50
 {
     public static $files = array (
-        '6ce78c507aa1ea0069e11dfd089f999c' => __DIR__ . '/../..' . '/BaseRouter.php',
-        '444d74ef3d030fd2b3dddbe429076594' => __DIR__ . '/../..' . '/facade/Router.php',
+        'da34dce47c1dd07eb10c9916724ff8f3' => __DIR__ . '/../..' . '/BaseRouter.php',
+        'b69b6910de03e097a125fa9800985a12' => __DIR__ . '/../..' . '/facade/Router.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

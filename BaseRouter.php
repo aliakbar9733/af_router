@@ -107,7 +107,7 @@ class BaseRouter
         if ($class) {
             $class = new $class();
             $response = $class->$method($request);
-            if (gettype($response) == "array" and gettype($response) == "object") {
+            if (gettype($response) == "array" or gettype($response) == "object") {
                 echo json_encode($response);
             } else {
                 echo $response;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Facade;
+namespace AF\Facade;
 
 use AF\BaseRouter;
 use Exception;

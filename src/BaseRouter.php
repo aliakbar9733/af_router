@@ -2,11 +2,13 @@
 
 namespace AF;
 
+use AF\Pattern\Singleton;
 use Exception;
 
 class BaseRouter
 {
-    public static self $instance;
+    use Singleton;
+
     private array $routes = [self::GET => [],
         self::POST => []];
     private const AT_SIGN = "@",
@@ -22,22 +24,6 @@ class BaseRouter
 
     private array $controllerNamespaces = [];
 
-    private final function __construct()
-    {
-
-    }
-
-    private final function __clone()
-    {
-    }
-
-    public static function getInstance()
-    {
-        if (!isset(self::$instance)) {
-            self::$instance = new self();
-        }
-        return self::$instance;
-    }
 
     private function addRoute($method, $uri, $controller)
     {
@@ -87,6 +73,11 @@ class BaseRouter
     private function getRequestMethod()
     {
         return $_SERVER[self::REQUEST_METHOD];
+    }
+
+    public function getRoutes()
+    {
+        echo json_encode($this->routes);
     }
 
     public function run()

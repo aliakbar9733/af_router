@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43618d96-bd96-4c00-a50a-47f442b34ee9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BaseRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/BaseRouter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaseView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/BaseFacade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Singleton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ali.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ali.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseRouter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/facade/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +42,8 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/eftec/bladeone" />
+      <path value="$PROJECT_DIR$/vendor/eftec/bladeonehtml" />
     </include_path>
   </component>
   <component name="ProjectId" id="1bcleUNRzepoBQCFie21cxtNLcd" />
@@ -42,8 +58,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +82,7 @@
       <updated>1588939357415</updated>
       <workItem from="1588939358629" duration="8408000" />
       <workItem from="1588948427871" duration="825000" />
-      <workItem from="1588949568295" duration="874000" />
+      <workItem from="1588949568295" duration="5660000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1588947559933</created>
@@ -129,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588950154820</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <created>1588950500944</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588950500944</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,42 +176,54 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="419" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1588948517494" />
+    <state x="485" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1588962618381">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="485" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1588962618381" />
     <state x="236" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588941821721">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="236" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1588941821721" />
-    <state x="278" y="23" key="CommitChangelistDialog2" timestamp="1588950154703">
+    <state x="417" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588961678170">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="278" y="23" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588950154703" />
+    <state x="417" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1588961678170" />
+    <state x="417" y="126" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1588962290093">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="417" y="126" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1588962290093" />
+    <state x="278" y="23" key="CommitChangelistDialog2" timestamp="1588950500825">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="278" y="23" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588950500825" />
     <state x="442" y="282" width="482" height="267" key="ComposerInitDialogKey" timestamp="1588947199656">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="442" y="282" width="482" height="267" key="ComposerInitDialogKey/0.0.1366.738@0.0.1366.738" timestamp="1588947199656" />
-    <state x="467" y="126" key="FileChooserDialogImpl" timestamp="1588949252306">
+    <state x="467" y="126" key="FileChooserDialogImpl" timestamp="1588964368737">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="467" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588949252306" />
+    <state x="467" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588964368737" />
     <state x="579" y="157" key="Github.ShareDialog" timestamp="1588947715381">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="579" y="157" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1588947715381" />
-    <state x="474" y="89" key="NewPhpClassDialog" timestamp="1588946392783">
+    <state x="474" y="89" key="NewPhpClassDialog" timestamp="1588964202250">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="474" y="89" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1588946392783" />
-    <state x="501" y="293" key="NewPhpFileDialog" timestamp="1588941705590">
+    <state x="474" y="89" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1588964202250" />
+    <state x="501" y="293" key="NewPhpFileDialog" timestamp="1588963949171">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="501" y="293" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1588941705590" />
+    <state x="501" y="293" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1588963949171" />
     <state x="180" y="3" key="SettingsEditor" timestamp="1588939377942">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="180" y="3" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1588939377942" />
-    <state x="279" y="104" key="Vcs.Push.Dialog.v2" timestamp="1588950156207">
+    <state x="279" y="104" key="Vcs.Push.Dialog.v2" timestamp="1588950502045">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="279" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588950156207" />
+    <state x="279" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588950502045" />
     <state x="477" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588947740707">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

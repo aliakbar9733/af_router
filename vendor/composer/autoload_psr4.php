@@ -6,4 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'eftec\\bladeonehtml\\' => array($vendorDir . '/eftec/bladeonehtml/lib'),
+    'eftec\\bladeone\\' => array($vendorDir . '/eftec/bladeone/lib'),
+    'AF\\Pattern\\' => array($baseDir . '/src/patterns'),
+    'AF\\Facade\\' => array($baseDir . '/src/facade'),
+    'AF\\' => array($baseDir . '/src'),
 );

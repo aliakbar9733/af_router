@@ -15,12 +15,14 @@
   ],
   "require": {
     "php": ">=7.4.0",
-    "ext-json": "*"
+    "ext-json": "*",
+    "eftec/bladeonehtml": "dev-master"
   },
   "autoload": {
-    "files": [
-      "BaseRouter.php",
-      "facade/Router.php"
-    ]
+    "psr-4": {
+      "AF\\": "src",
+      "AF\\Facade\\": "src/facade",
+      "AF\\Pattern\\": "src/patterns"
+    }
   }
 }

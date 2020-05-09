@@ -7,8 +7,6 @@ use AF\Pattern\Singleton;
 use eftec\bladeone\BladeOne;
 use Exception;
 
-require_once "../vendor/autoload.php";
-
 
 final class BaseView extends BladeOne
 {
@@ -18,12 +16,18 @@ final class BaseView extends BladeOne
     const VIEW_DIR_NOT_SET = "Views Directory Not Exists";
     private string $viewsDirectory,
         $cacheDirectory = __DIR__ . self::CACHE;
+    public BladeOne $blade;
 
-    private function __construct()
+    public function setBladeInstance()
     {
         if (empty($this->viewsDirectory) or is_null($this->viewsDirectory))
             throw new Exception(self::VIEW_DIR_NOT_SET);
-        parent::__construct($this->viewsDirectory, $this->cacheDirectory);
+        $this->blade = new BladeOne($this->viewsDirectory, $this->cacheDirectory);
+    }
+
+    public function getView()
+    {
+        return $this->viewsDirectory;
     }
 
     public function setViewsDirectory(string $directory)
@@ -38,6 +42,8 @@ final class BaseView extends BladeOne
 
     public function run($view, $variables = [])
     {
-        return parent::run($view, $variables);
+        if(!$variables)
+            $variables = [];
+        return $this->blade->run($view, $variables);
     }
 }

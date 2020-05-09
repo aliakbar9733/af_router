@@ -9,8 +9,11 @@ class BaseRouter
 {
     use Singleton;
 
-    private array $routes = [self::GET => [],
-        self::POST => []];
+    private array $routes =
+        [self::GET => [],
+            self::POST => [],
+            self::VIEW => []];
+
     private const AT_SIGN = "@",
         CONTROLLER = "controller",
         METHOD = "method",
@@ -20,7 +23,8 @@ class BaseRouter
     private const ROUTE_NOT_EXISTS = "Route not Exists",
         CONTROLLER_NOT_EXISTS = "Controller not Exists";
     private const GET = "GET",
-        POST = "POST";
+        POST = "POST",
+        VIEW = "VIEW";
 
     private array $controllerNamespaces = [];
 

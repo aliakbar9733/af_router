@@ -1,7 +1,17 @@
 {
   "name": "af_sg/router",
   "description": "Http Router",
+  "type": "library",
+  "keywords": [
+    "blade",
+    "router",
+    "theme",
+    "GET",
+    "POST"
+  ],
   "minimum-stability": "dev",
+  "homepage": "https://github.com/aliakbar9733/af_router/",
+
   "license": "MIT",
   "authors": [
     {

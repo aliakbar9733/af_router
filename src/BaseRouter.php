@@ -84,10 +84,15 @@ class BaseRouter
         echo json_encode($this->routes);
     }
 
-    public function run()
+    public function run(callable $exists = null)
     {
         $request = (object)$_REQUEST;
-        $route = $this->findRoute($this->getRequestMethod(), @$request->af_router_action);
+        try {
+            $route = $this->findRoute($this->getRequestMethod(), @$request->af_router_action);
+        } catch (Exception $e) {
+            echo @$exists($request,$e);
+            return;
+        }
         $controller = $route[self::CONTROLLER];
         $method = $route[self::METHOD];
         $class = null;

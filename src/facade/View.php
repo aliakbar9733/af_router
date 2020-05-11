@@ -11,6 +11,7 @@ use AF\BaseView;
  * @package AF\Facade
  * @method static setCacheDirectory(string $directory)
  * @method static run(string $view, array $variables = []);
+ * @method static directives(callable $handle);
  */
 class View extends BaseFacade
 {

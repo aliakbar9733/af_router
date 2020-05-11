@@ -23,6 +23,7 @@ final class BaseView extends BladeOne
         if (empty($this->viewsDirectory) or is_null($this->viewsDirectory))
             throw new Exception(self::VIEW_DIR_NOT_SET);
         $this->blade = new BladeOne($this->viewsDirectory, $this->cacheDirectory);
+
     }
 
     public function getView()
@@ -35,6 +36,11 @@ final class BaseView extends BladeOne
         $this->viewsDirectory = $directory;
     }
 
+    public function directives(callable $handle)
+    {
+        return $handle($this->blade);
+    }
+
     public function setCacheDirectory(string $directory)
     {
         $this->cacheDirectory = $directory;
@@ -42,7 +48,7 @@ final class BaseView extends BladeOne
 
     public function run($view, $variables = [])
     {
-        if(!$variables)
+        if (!$variables)
             $variables = [];
         return $this->blade->run($view, $variables);
     }

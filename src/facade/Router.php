@@ -11,6 +11,7 @@ use AF\BaseRouter;
  * @method static get(string $uri, string $controller)
  * @method static post(string $uri, string $controller)
  * @method static run(callable $exists = null)
+ *
  * @method static setControllerNamespace(string $namespace)
  */
 class Router extends BaseFacade

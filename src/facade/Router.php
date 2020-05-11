@@ -10,7 +10,7 @@ use AF\BaseRouter;
  * @package AF\Facade
  * @method static get(string $uri, string $controller)
  * @method static post(string $uri, string $controller)
- * @method static run()
+ * @method static run(callable $exists = null)
  * @method static setControllerNamespace(string $namespace)
  */
 class Router extends BaseFacade

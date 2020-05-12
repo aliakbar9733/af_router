@@ -88,7 +88,7 @@ class BaseRouter
     {
         $request = (object)$_REQUEST;
         try {
-            $route = $this->findRoute($this->getRequestMethod(), @$request->af_router_action);
+            $route = $this->findRoute($this->getRequestMethod(), @$request->action);
         } catch (Exception $e) {
             echo @$exists($request,$e);
             return;

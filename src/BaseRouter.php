@@ -90,7 +90,7 @@ class BaseRouter
         try {
             $route = $this->findRoute($this->getRequestMethod(), @$request->action);
         } catch (Exception $e) {
-            echo @$exists($request,$e);
+            echo @$exists($request, $e);
             return;
         }
         $controller = $route[self::CONTROLLER];

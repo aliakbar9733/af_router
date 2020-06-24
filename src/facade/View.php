@@ -1,9 +1,6 @@
 <?php
 
 namespace AF\Facade;
-ini_set("display_errors", "on");
-
-require "../../vendor/autoload.php";
 
 use AF\BaseView;
 

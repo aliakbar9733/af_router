@@ -8,10 +8,11 @@ use Exception;
 
 abstract class BaseFacade
 {
-    abstract protected static function getBaseClass(): object;
+    abstract protected static function getBaseClass();
 
     public static function __callStatic($name, $arguments)
     {
+
         $baseClass = static::getBaseClass();
         if (method_exists($baseClass, $name)) {
             return $baseClass->$name(@$arguments[0], @$arguments[1],

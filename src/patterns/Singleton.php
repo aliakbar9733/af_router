@@ -5,7 +5,7 @@ namespace AF\Pattern;
 
 trait Singleton
 {
-    private static object $instance;
+    private static $instance;
 
     private function __construct()
     {

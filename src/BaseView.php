@@ -46,7 +46,7 @@ final class BaseView extends BladeOne
         $this->cacheDirectory = $directory;
     }
 
-    public function run($view, $variables = [])
+    public function run($view = null, $variables = [])
     {
         if (!$variables)
             $variables = [];
